@@ -1,5 +1,7 @@
 # orago-client
 
+Another JS IRC client. :3
+
 ## Project setup
 ```
 npm install
