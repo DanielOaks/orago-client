@@ -92,3 +92,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/vue,vuejs,windows,macos,linux
+
+#Electron-builder output
+/dist_electron
