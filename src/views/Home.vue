@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-app-bar app clipped-right flat height="72">
+    <v-app-bar app clipped-right flat height="50">
       <v-spacer></v-spacer>
 
       <v-responsive max-width="156">
@@ -65,9 +65,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-main>
-      <!--  -->
-    </v-main>
+    <v-main> <!--  -->afrfas. </v-main>
 
     <v-footer app color="transparent" height="72" inset>
       <v-text-field
