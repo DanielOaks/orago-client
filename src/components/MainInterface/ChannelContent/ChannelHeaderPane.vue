@@ -1,12 +1,21 @@
 <template>
   <div class="channelHeaderPane">
+    <ChannelName />
     <div class="topicText">topic goes here</div>
+    <ChannelSearchBar />
   </div>
 </template>
 
 <script>
+import ChannelName from "../ChannelName.vue";
+import ChannelSearchBar from "./ChannelSearchBar.vue";
+
 export default {
   name: "ChannelHeaderPane",
+  components: {
+    ChannelName,
+    ChannelSearchBar,
+  },
 };
 </script>
 
@@ -18,9 +27,14 @@ export default {
 
   display: flex;
   box-sizing: border-box;
-  padding: 0 1em;
+  padding: 0 1.25em;
   align-items: center;
   border-bottom: 1px solid var(--bg-1);
+
+  .channelName {
+    width: unset;
+    margin-right: 1em;
+  }
 
   .topicText {
     width: 100%;

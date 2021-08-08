@@ -15,6 +15,12 @@ export default {
 </script>
 
 <style lang="scss">
+// this matches vuetify's defaults, and I'm fine with that
+body {
+  font-family: "Roboto", sans-serif;
+  // line-height: 1.5;
+}
+
 :root {
   --alert-pip: #fbf7ff;
   --bg-1: #423c50;
@@ -31,6 +37,8 @@ export default {
   --dm-icon: #ded2fd;
   --dm-sep: #584f6d;
   --header-searchbox-bg: #49415e;
+  --header-searchbox-text: #aca7b1;
+  --header-searchbox-text-active: #fbf7ff;
   --header-topic-text: #bfbcc9;
   --sidebar-alert-pip: #fbf7ff;
   --sidebar-bg: #52486a;
@@ -38,5 +46,9 @@ export default {
   --sidebar-hr: #49415e;
   --sidebar-profile-bg: #49415e;
   --sidebar-title: #f3f1f6;
+}
+
+[data-theme="light"] {
+  --alert-pip: #02000b;
 }
 </style>
