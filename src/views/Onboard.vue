@@ -1,8 +1,10 @@
 <template>
-  <img alt="Orago logo" src="@/assets/logo.png" />
-  <h1>Welcome to Orago</h1>
+  <div>
+    <img alt="Orago logo" src="@/assets/logo.png" />
+    <h1>Welcome to Orago</h1>
 
-  <router-link to="/">Enter app</router-link>
+    <router-link to="/">Enter app</router-link>
+  </div>
 </template>
 
 <script lang="ts">

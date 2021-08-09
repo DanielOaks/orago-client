@@ -13,6 +13,7 @@
     background: var(--header-searchbox-bg);
     color: var(--header-searchbox-text);
     border: none;
+    font-size: 1em;
 
     &:active,
     &:focus {
