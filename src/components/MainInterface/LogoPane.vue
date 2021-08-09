@@ -6,29 +6,24 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "LogoPane",
-};
-</script>
+<script lang="ts"></script>
 
 <style lang="scss" scoped>
-.logoPane {
-  height: 3.25em;
-  display: flex;
-
-  .logoContainer {
-    height: 100%;
-    width: 100%;
-    flex: 1 1 auto;
-
+  .logoPane {
+    height: 3.25em;
     display: flex;
-    align-items: center;
-    justify-content: center;
 
-    img {
-      height: 2.05em;
+    .logoContainer {
+      height: 100%;
+      width: 100%;
+      flex: 1 1 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        height: 2.05em;
+      }
     }
   }
-}
 </style>
