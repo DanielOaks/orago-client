@@ -1,25 +1,25 @@
 <template>
-  <div class="channelHeaderPane">
-    <ChannelName />
+  <div class="bufferHeaderPane">
+    <BufferName />
     <div class="topicText">topic goes here</div>
-    <ChannelSearchBar />
+    <BufferSearchBar />
   </div>
 </template>
 
 <script lang="ts">
-  import ChannelName from '../ChannelName.vue'
-  import ChannelSearchBar from './ChannelSearchBar.vue'
+  import BufferName from '../BufferName.vue'
+  import BufferSearchBar from './BufferSearchBar.vue'
 
   export default {
     components: {
-      ChannelName,
-      ChannelSearchBar,
+      BufferName,
+      BufferSearchBar,
     },
   }
 </script>
 
 <style lang="scss" scoped>
-  .channelHeaderPane {
+  .bufferHeaderPane {
     width: 100%;
     height: 3em;
     flex: none;
@@ -29,7 +29,7 @@
     align-items: center;
     border-bottom: 1px solid var(--bg-1);
 
-    .channelName {
+    .bufferName {
       width: unset;
       margin-right: 1em;
     }

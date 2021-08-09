@@ -5,26 +5,26 @@
       <div class="listContainer">
         <ServerListPane />
         <div class="channelProfileContainer">
-          <ChannelListPane />
+          <BufferListPane />
           <MyProfilePane />
         </div>
       </div>
     </div>
-    <ChannelContentPane />
+    <BufferPane />
   </div>
 </template>
 
 <script lang="ts">
-  import ChannelContentPane from '@/components/MainInterface/ChannelContentPane.vue'
-  import ChannelListPane from '@/components/MainInterface/ChannelListPane.vue'
+  import BufferPane from '@/components/MainInterface/BufferPane.vue'
+  import BufferListPane from '@/components/MainInterface/BufferListPane.vue'
   import LogoPane from '@/components/MainInterface/LogoPane.vue'
   import MyProfilePane from '@/components/MainInterface/MyProfilePane.vue'
   import ServerListPane from '@/components/MainInterface/ServerListPane.vue'
 
   export default {
     components: {
-      ChannelContentPane,
-      ChannelListPane,
+      BufferPane,
+      BufferListPane,
       LogoPane,
       MyProfilePane,
       ServerListPane,

@@ -1,11 +1,11 @@
 <template>
-  <div class="channelListPane"></div>
+  <div class="bufferListPane"></div>
 </template>
 
 <script lang="ts"></script>
 
 <style lang="scss" scoped>
-  .channelListPane {
+  .bufferListPane {
     width: 100%;
     height: 100%;
     flex: 1 1 auto;

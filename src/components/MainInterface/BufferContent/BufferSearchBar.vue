@@ -1,11 +1,11 @@
 <template>
-  <input class="channelSearchBar" />
+  <input class="bufferSearchBar" />
 </template>
 
 <script lang="ts"></script>
 
 <style lang="scss" scoped>
-  .channelSearchBar {
+  .bufferSearchBar {
     width: 15em;
     flex: 0 0 none;
     padding: 0.3em 0.8em;

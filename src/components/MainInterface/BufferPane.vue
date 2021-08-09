@@ -1,21 +1,21 @@
 <template>
-  <div class="channelContentPane">
-    <ChannelHeaderPane />
+  <div class="bufferPane">
+    <BufferHeaderPane />
   </div>
 </template>
 
 <script lang="ts">
-  import ChannelHeaderPane from './ChannelContent/ChannelHeaderPane.vue'
+  import BufferHeaderPane from './BufferContent/BufferHeaderPane.vue'
 
   export default {
     components: {
-      ChannelHeaderPane,
+      BufferHeaderPane,
     },
   }
 </script>
 
 <style lang="scss" scoped>
-  .channelContentPane {
+  .bufferPane {
     width: 100%;
     height: 100%;
     flex: 1 1 auto;

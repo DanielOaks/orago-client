@@ -1,5 +1,5 @@
 <template>
-  <div class="channelName">
+  <div class="bufferName">
     <div class="symbol">#</div>
     <div class="name">channel</div>
   </div>
@@ -8,7 +8,7 @@
 <script lang="ts"></script>
 
 <style lang="scss" scoped>
-  .channelName {
+  .bufferName {
     height: 3em;
     width: 100%;
     flex: 1 1 auto;
