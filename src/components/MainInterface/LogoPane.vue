@@ -10,8 +10,9 @@
 
 <style lang="scss" scoped>
   .logoPane {
-    height: 3.25em;
+    height: 3em;
     display: flex;
+    flex-shrink: 0;
 
     .logoContainer {
       height: 100%;
