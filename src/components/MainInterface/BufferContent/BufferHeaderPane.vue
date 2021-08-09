@@ -37,8 +37,11 @@
     .topicText {
       width: 100%;
       flex: 1 1 auto;
-      //TODO: fade out on right side of the div
+      text-overflow: ellipsis;
       color: var(--header-topic-text);
+      overflow: hidden;
+      white-space: nowrap;
+      margin-right: 1em;
     }
   }
 </style>

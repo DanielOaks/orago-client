@@ -16,7 +16,8 @@
     font-size: 1em;
 
     &:active,
-    &:focus {
+    &:focus,
+    &:focus-visible {
       color: var(--header-searchbox-text-active);
       border-radius: 0.5em;
     }
