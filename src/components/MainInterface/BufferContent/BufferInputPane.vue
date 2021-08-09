@@ -2,12 +2,21 @@
   <div class="bufferInputPane">
     <div class="inputContainer">
       <!-- <textarea /> -->
+      <OurInput />
       <span class="input" role="textbox" contenteditable></span>
     </div>
   </div>
 </template>
 
-<script lang="ts"></script>
+<script lang="ts">
+  import OurInput from '@/components/MainInterface/OurInput.vue'
+
+  export default {
+    components: {
+      OurInput,
+    },
+  }
+</script>
 
 <style lang="scss" scoped>
   .bufferInputPane {
@@ -20,25 +29,10 @@
       padding: 0 0.8em;
       border-radius: 0.5em;
       display: flex;
+      max-height: 10em;
 
-      span.input {
-        background: none;
-        border: none;
-        font-size: 1em;
-        width: 100%;
-        max-width: 100%;
+      .ourInput {
         padding: 1em 0;
-        font-family: Avenir, Helvetica, Arial, sans-serif;
-        // resize: none;
-        word-wrap: break-word;
-        overflow: hidden;
-
-        &:active,
-        &:focus,
-        &:focus-visible {
-          border: none;
-          outline: none;
-        }
       }
     }
   }

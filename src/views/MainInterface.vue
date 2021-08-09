@@ -39,6 +39,9 @@
     display: flex;
     background: var(--bg-1);
 
+    // this min-width is magic https://stackoverflow.com/a/66689926
+    min-width: 0;
+
     .leftPane {
       width: 17em;
       flex: none;

@@ -36,8 +36,12 @@
     flex-direction: column;
     background: var(--bg-2);
 
+    // this min-width is magic https://stackoverflow.com/a/66689926
+    min-width: 0;
+
     .bufferContentSidebarContainer {
       height: 100%;
+      width: 100%;
       flex: 1 1 auto;
       display: flex;
 
@@ -46,6 +50,9 @@
         flex: 1 1 auto;
         display: flex;
         flex-direction: column;
+
+        // this min-width is magic https://stackoverflow.com/a/66689926
+        min-width: 0;
       }
     }
   }
