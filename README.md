@@ -23,4 +23,4 @@ npm run lint:markup
 
 ## Recommended IDE setup
 
-[VSCode](https://code.visualstudio.com/) + [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) + [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) + [Vale](https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) + [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) + [Vale](https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server).
