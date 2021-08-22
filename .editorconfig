@@ -1,0 +1,10 @@
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# for now use 2 spaces to indent everywhere
+indent_style = space
+indent_size = 2
+
+[*.{js,ts,vue}]
+charset = utf-8
