@@ -23,4 +23,9 @@ npm run lint:markup
 
 ## Recommended IDE setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) + [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) + [Vale](https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server).
+- [VSCode](https://code.visualstudio.com/) +
+  - [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) (for consistent line endings, indenting)
+  - [eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) (to show js issues and keep the coding style consistent)
+  - [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) (to keep the css style normalised)
+  - [Vale](https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server) (if you're going to be making a lot of text/markdown files)
+  - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (Vue 3 extension)
