@@ -8,14 +8,8 @@
   </div>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
   import Avatar from './Avatar.vue'
-
-  export default {
-    components: {
-      Avatar,
-    },
-  }
 </script>
 
 <style lang="scss" scoped>

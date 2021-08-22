@@ -14,22 +14,12 @@
   </div>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
   import BufferPane from '@/components/MainInterface/BufferPane.vue'
   import BufferListPane from '@/components/MainInterface/BufferListPane.vue'
   import LogoPane from '@/components/MainInterface/LogoPane.vue'
   import MyProfilePane from '@/components/MainInterface/MyProfilePane.vue'
   import ServerListPane from '@/components/MainInterface/ServerListPane.vue'
-
-  export default {
-    components: {
-      BufferPane,
-      BufferListPane,
-      LogoPane,
-      MyProfilePane,
-      ServerListPane,
-    },
-  }
 </script>
 
 <style lang="scss" scoped>

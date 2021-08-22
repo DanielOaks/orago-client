@@ -11,20 +11,11 @@
   </div>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
   import BufferContent from './BufferContent/BufferContent.vue'
   import BufferHeaderPane from './BufferContent/BufferHeaderPane.vue'
   import BufferInputPane from './BufferContent/BufferInputPane.vue'
   import BufferSidebarPane from './BufferContent/BufferSidebarPane.vue'
-
-  export default {
-    components: {
-      BufferContent,
-      BufferHeaderPane,
-      BufferInputPane,
-      BufferSidebarPane,
-    },
-  }
 </script>
 
 <style lang="scss" scoped>

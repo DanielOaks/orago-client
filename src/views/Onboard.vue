@@ -7,11 +7,4 @@
   </div>
 </template>
 
-<script lang="ts">
-  import { defineComponent } from 'vue'
-  export default defineComponent({
-    setup: () => {
-      // mark self as onboarded...
-    },
-  })
-</script>
+<script setup lang="ts"></script>

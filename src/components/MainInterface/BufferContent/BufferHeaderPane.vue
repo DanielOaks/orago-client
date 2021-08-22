@@ -6,16 +6,9 @@
   </div>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
   import BufferName from '../BufferName.vue'
   import BufferSearchBar from './BufferSearchBar.vue'
-
-  export default {
-    components: {
-      BufferName,
-      BufferSearchBar,
-    },
-  }
 </script>
 
 <style lang="scss" scoped>

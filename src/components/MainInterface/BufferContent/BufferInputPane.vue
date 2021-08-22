@@ -8,14 +8,8 @@
   </div>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
   import OurInput from '@/components/MainInterface/OurInput.vue'
-
-  export default {
-    components: {
-      OurInput,
-    },
-  }
 </script>
 
 <style lang="scss" scoped>
