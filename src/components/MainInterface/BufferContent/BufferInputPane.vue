@@ -1,9 +1,7 @@
 <template>
   <div class="bufferInputPane">
     <div class="inputContainer">
-      <!-- <textarea /> -->
       <OurInput />
-      <span class="input" role="textbox" contenteditable></span>
     </div>
   </div>
 </template>
@@ -24,10 +22,6 @@
       border-radius: 0.5em;
       display: flex;
       max-height: 10em;
-
-      .ourInput {
-        padding: 1em 0;
-      }
     }
   }
 </style>
