@@ -2,8 +2,6 @@
   <span class="ourInput" role="textbox" contenteditable></span>
 </template>
 
-<script lang="ts"></script>
-
 <style lang="scss" scoped>
   span.ourInput {
     background: none;

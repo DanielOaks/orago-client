@@ -2,8 +2,6 @@
   <div class="avatar"><span>d</span></div>
 </template>
 
-<script lang="ts"></script>
-
 <style lang="scss" scoped>
   .avatar {
     padding: 1.05em;

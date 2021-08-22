@@ -5,8 +5,6 @@
   </div>
 </template>
 
-<script lang="ts"></script>
-
 <style lang="scss" scoped>
   .bufferName {
     height: 3em;

@@ -2,8 +2,6 @@
   <div class="bufferListPane"></div>
 </template>
 
-<script lang="ts"></script>
-
 <style lang="scss" scoped>
   .bufferListPane {
     width: 100%;
