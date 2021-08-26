@@ -20,7 +20,7 @@
     align-items: center;
 
     .avatar {
-      margin: 0 0.4em 0 0.5em;
+      margin: 0 0.475em 0 0.7em;
     }
 
     .names {
@@ -32,7 +32,7 @@
       flex: 1 1 auto;
 
       .displayName {
-        font-size: 1.1em;
+        font-size: 1.05em;
         margin-bottom: 0.2em;
       }
 

@@ -24,7 +24,7 @@
   }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
   .ourInput {
     background: none;
     border: none;
@@ -34,13 +34,16 @@
     font-family: Avenir, Helvetica, Arial, sans-serif;
     word-wrap: break-word;
     overflow: hidden;
-    padding: 1em 0;
 
-    &:active,
-    &:focus,
-    &:focus-visible {
-      border: none;
-      outline: none;
+    .ProseMirror {
+      padding: 1em 0;
+
+      &:active,
+      &:focus,
+      &:focus-visible {
+        border: none;
+        outline: none;
+      }
     }
   }
 </style>
