@@ -11,7 +11,7 @@ import { NormalisedWorker } from './normalised-worker'
 import SharedIRCWorker from './irc-worker/IRCWorker?sharedworker'
 import IRCWorker from './irc-worker/IRCWorker?worker'
 
-const worker = new NormalisedWorker(SharedIRCWorker, IRCWorker);
+const worker = new NormalisedWorker(SharedIRCWorker, IRCWorker)
 worker.onerror = (e) => {
   console.log(`worker error: ${e}`)
 }
@@ -24,4 +24,4 @@ worker.postMessage('worker')
 worker.postMessage('worker')
 worker.postMessage('worker')
 
-console.log(worker);
+console.log(worker)

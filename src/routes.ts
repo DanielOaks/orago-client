@@ -4,7 +4,7 @@ export const routes: RouteRecordRaw[] = [
   {
     name: 'main',
     path: '/',
-    component: () => import('./views/MainInterface.vue'),
+    component: () => import('@/views/MainInterface.vue'),
   },
   {
     name: 'onboard',
