@@ -11,7 +11,7 @@ app.use(router).mount('#app')
 // }
 
 //
-import TestWorker2 from './workers/TestSharedWorker?worker'
+import TestWorker2 from './irc-worker/IRCWorker?worker'
 
 const worker2 = new TestWorker2
 worker2.onerror = (e) => {
@@ -28,10 +28,13 @@ worker2.postMessage('worker')
 console.log(worker2);
 
 //
-import TestWorker from './workers/TestSharedWorker?sharedworker'
+import TestWorker from './irc-worker/IRCWorker?sharedworker'
 
 const worker = new TestWorker
 worker.port.start()
+worker.onerror = (e) => {
+  console.log(`sharedworker error: ${e}`)
+}
 worker.port.onmessage = (e) => {
   console.log('sharedworker caller received:', e.data)
 }
