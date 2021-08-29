@@ -1,4 +1,4 @@
-const _self: SharedAndDedicatedWorkerGlobalScope = self as any;
+const _self: NormalisedWorkerGlobalScope = self as any;
 
 let counter = 0;
 

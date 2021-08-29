@@ -7,11 +7,11 @@ export const app = createApp(App)
 app.use(router).mount('#app')
 
 // irc worker
-import { NormalisedWorkerHelper } from './normalised-worker'
+import { NormalisedWorker } from './normalised-worker'
 import SharedIRCWorker from './irc-worker/IRCWorker?sharedworker'
 import IRCWorker from './irc-worker/IRCWorker?worker'
 
-const worker = NormalisedWorkerHelper(SharedIRCWorker, IRCWorker);
+const worker = new NormalisedWorker(SharedIRCWorker, IRCWorker);
 worker.onerror = (e) => {
   console.log(`worker error: ${e}`)
 }
